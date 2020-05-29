@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <script type="text/javascript" src="../../../bootstrap/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../../../bootstrap/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="../../style.css"/>
+    <link rel="stylesheet" href="style-login.css"/>
+    
+    <title>DevChat | LOGIN</title>
+    <link rel="icon" href="../../images/bp-icon.svg">
+</head>
+<body class="background">
+    
+    <header class="cabecalho">
+        <h1>
+            <a href="../../index.html">DevChat</a>
+        </h1>
+    </header>
+    
+    <div class="conteudo">
+        <a href="../../../pages/login/login.html" class="lightMode">
+            <img src="../../images/off.svg" alt="">
+            Light Theme</a>        
+    </div>
+    <br><br>
+    <div class="container"><!--Container-->
+
+        <div class="row"><!--Row--> 
+
+            <!--Menu-->         
+            <nav class="menu">
+                <a href="../../index.html">Home
+                    <img src="../../images/home.png">
+                </a>
+                <a href="login.html">Login
+                    <img src="../../images/login.png">
+                </a>
+                <a href="../subscribe/subscribe.html">Criar conta
+                    <img src="../../images/subscribe.png">
+                </a>
+                <a href="../donate/donate.html">Seja um apoiador
+                    <img src="../../images/donate.png">
+                </a>
+                <a href="../about-us/about-us.html">Sobre nós
+                    <img src="../../images/about.png">
+                </a>
+                <a href="../contact/contact.html">Contatos
+                    <img src="../../images/contact.png">
+                </a>
+            </nav>
+            <!--Menu /-->
+
+
+
+<!--Formulario-->
+<div class="entrada col-md-7 col-sm-9">
+    <div class="entradaint">
+        <h2>Faça Login</h2>
+        <form method="POST">
+            <input type="email" name="email" id="email" placeholder="Email"  required/>
+            <input type="password" name="password" id="password" placeholder="Senha" minlength="8" 
+                   maxlength="32" required/>
+                <div><!--Essa div serve pra o input abaixo ter um estilo diferente-->
+                    <input type="checkbox" id="remember" name="remember" class="checkBox"/>  
+                    <label for="remember">Lembrar</label><br/><br/>
+                </div>
+            <button value="" class="btn-login buttonLogin">Entrar</button>
+            <button value="" class="btn-registar buttonRegister">Registar</button>
+            <a class="forgotPass" href="">Esqueceu a senha?</a>
+            <!--<input type="checkbox" id="remember" name="remember" class="remember"/> Lembrar <br/><br/>-->
+        </form>
+    </div>
+</div>
+<!--Formulario /-->
+    
+    
+    </div><!--Row /-->
+</div><!--Container /-->
+
+    <footer>
+        <p>&copy;devChat</p>
+    </footer>
+
+
+    </body>
+</html>

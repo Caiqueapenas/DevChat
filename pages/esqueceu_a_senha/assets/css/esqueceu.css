@@ -1,0 +1,170 @@
+* {
+    font-family:Sans-serif;
+}
+body {
+    display:block;
+}
+
+.topo {
+    margin:auto;
+    width:100%;
+    max-width:1040px;
+    height:80px;
+}
+
+.topoint {
+    margin:auto;
+    height:80px;
+    line-height:80px;
+    width:170px;
+    border:1px solid #800080;
+    border-radius:30px;
+    text-align:center;
+    color:#800080; 
+    font-size:28px;
+    font-weight:bold;  
+}
+
+.topoint a {
+    text-decoration:none;
+    color:#800080;
+}
+
+.opcao {
+    margin:auto;
+    width:100%;
+    max-width:1040px;
+    margin-bottom:40px;
+}
+
+.opcaoint {
+    float:right;
+}
+
+.opcaoint ul {
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+
+.opcaoint li a {
+    text-decoration:none;
+    color:#800080;
+}
+
+.opcaoint li {
+    float:left;
+    margin-left:10px;
+    border:1px solid #800080;
+    height:30px;
+    width:50px;
+    line-height:30px;
+    text-align:center;
+    border-radius:5px;
+}
+
+.opcaoint li:hover {
+    cursor:pointer;
+}
+
+.menu {
+    margin:auto;
+    margin-bottom:55px;
+    width:100%;
+    max-width:1040px;
+    height:60px;
+    border:1px solid #800080;
+    border-radius:10px;
+}
+
+.menuint ul {
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+
+.menuint li {
+    float:left; 
+    margin:auto;
+    margin-top:9px;
+    margin-left:45px;
+    margin-right:30px;
+    height:40px;
+    line-height:40px;
+    font-size:14px;
+    border:1px solid #800080;
+    border-radius:10px;
+}
+
+.menuint li a {
+    text-decoration:none;
+    color:#800080;
+    font-weight:bold;
+}
+
+.entrada {
+    margin:auto;
+    margin-bottom:55px;
+    width:100%;
+    max-width:1040px;
+    height:300px;
+}
+
+.entradaint {
+    margin:auto;
+    width:300px;
+    height:200px;
+    border-radius:20px;
+    border:1px solid #800080;
+}
+
+.login {
+    margin:auto;
+    margin-top:20px;
+    margin-bottom:20px;
+    width:100px;
+    height:40px;
+    line-height:40px;
+    border:1px solid #800080;
+    border-radius:5px;
+    text-align:center;
+    color:#800080;
+    font-weight:bold;
+}
+
+.login:hover {
+    cursor:pointer;
+    background-color:#800080;
+    color:#fff;
+    font-weight:bold;
+}
+
+.entradaint form {
+    color:#800080;
+}
+
+.entradaint input {
+    border:1px solid #800080;
+    border-radius:10px;
+    margin-bottom:10px;
+    margin-left:50px;
+}
+
+.entradaint p {
+    text-align:center;
+    padding-top:10px;
+    margin-bottom:10px;
+}
+
+.rodape {
+    height:50px;
+    width:100%;
+    max-width:1040px;
+    margin:auto;
+    line-height:50px;
+    border:1px solid #800080;
+    color:#800080;
+    font-weight:bold;
+    text-align:center;
+    border-radius:10px;
+}

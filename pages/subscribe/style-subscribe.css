@@ -1,0 +1,32 @@
+/*================FORMULÁRIO====================*/
+
+.entrada{
+    border: 2px solid rgb(102, 33, 148);
+    border-radius:20px;
+    width: 100%;
+    max-width:1024;
+    margin: auto;
+    padding: 30px 5px;
+}
+
+div>form>input{
+    text-decoration: none;
+    border:none ;
+    border-bottom: 1px solid  rgba(0, 0, 0, 0.144);
+    margin:10px 10px;
+    width:40%;
+    max-width:450px;
+    outline: none;
+}
+
+div>input{
+    width: 100%;
+    border:none ;
+    border-bottom: 1px solid  rgba(0, 0, 0, 0.144);
+    margin:10px auto;
+    outline: none;
+}
+
+::placeholder{
+    color: black;
+}

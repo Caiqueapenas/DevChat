@@ -1,0 +1,93 @@
+
+/*=============Formulário=============*/
+
+div>h2{
+    color:#FFF;
+    text-align: center;
+    margin: 30px auto 0px auto;
+}
+.entrada {
+    margin:100px auto auto auto;
+    width:auto;
+    padding: 0;
+    max-width: 700px;
+    height:auto;
+    border:2px solid #FFF;
+    border-radius: 20px;
+}
+.entradaint {
+    margin:auto;
+    width:auto;
+    height:auto;
+    max-width: 500px;
+    border:none;    
+}
+.entradaint form { 
+    margin: auto;
+    padding: 60px 0 30px 10px;
+    color:#FFF;
+}
+
+form>input{
+    background: none;
+    float: left;
+    border:none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.212);
+    text-decoration: none;
+    width: 90%;
+    margin: 40px auto 20px auto;
+    outline: none;
+}
+
+::placeholder{
+    color:rgba(253, 253, 253, 0.63);
+}
+
+.checkBox{
+    margin: 0 15px 0 20px;
+}
+
+
+.btn-login{
+    margin:auto;
+}
+
+/*=====================Formatacao do botao login*/
+.buttonLogin{
+    background-color: transparent;
+    border: 2px solid #FFF;
+    text-decoration: none;
+    color: #FFF;
+    border-radius: 20px;
+    padding:10px 20px;
+}
+.buttonLogin:hover{    
+    background-color: #FFF;
+    color: #000;
+    transition:.3s;
+}
+
+/*=====================Formatacao do botao Register*/
+.buttonRegister{
+    text-decoration: none;
+    border: 2px solid #FFF;
+    background: #FFF;
+    color: #000;
+    border-radius: 20px;
+    padding:10px 20px;
+}
+.buttonRegister:hover{    
+    background: none;
+    color: #FFF;
+    transition:.3s;
+}
+
+/*=============Esqueceu a senha?=============*/
+
+.forgotPass{
+    color:#FFF;
+    margin:0 0 0 10px;
+}
+.forgotPass:hover{
+    color:rgb(206, 206, 206);
+}
