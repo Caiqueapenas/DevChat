@@ -66,16 +66,16 @@ form>input{
 
 a.button{
     text-decoration: none;
-    border: 2px solid #FFF;
-    background: #FFF;
-    color: #242424;
+    border: 2px solid rgba(102, 33, 148, 0.822);
+    background: rgb(102, 33, 148);
+    color: #FFF;
     border-radius: 20px;
     padding:10px 20px;
 }
 
 a.button:hover{
     background: none;
-    color: #FFF;
+    color: #000;
     transition: .2s;
 }
 
