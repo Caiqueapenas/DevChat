@@ -1,32 +1,92 @@
-/*================FORMULÁRIO====================*/
-
-.entrada{
-    border: 2px solid rgb(102, 33, 148);
-    border-radius:20px;
+/*====================FORMULÁRIO DE REGISTRO====================*/
+.form{
+    border: 2px solid #662194;
+    border-radius: 20px;
     width: 100%;
-    max-width:1024;
-    margin: auto;
-    padding: 30px 5px;
+    max-width: 700px;
+    margin: 100px auto auto auto;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-div>form>input{
-    text-decoration: none;
+h2{
+    margin: auto auto 50px auto;
+}
+
+input{
+    background: none;
     border:none ;
-    border-bottom: 1px solid  rgba(0, 0, 0, 0.144);
-    margin:10px 10px;
-    width:40%;
-    max-width:450px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.548);
+    width: 45%;
+    margin: 30px 3% 0 0;
+    color: rgba(255, 255, 255, 0.822);
     outline: none;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 div>input{
-    width: 100%;
-    border:none ;
-    border-bottom: 1px solid  rgba(0, 0, 0, 0.144);
-    margin:10px auto;
-    outline: none;
+    width: 94%;
 }
 
+select{
+    background: none;
+    height: 25px;
+    border: 2px solid #662194;
+    border-radius: 20px;
+    padding: 2px;
+    margin: 2.7em 0 0 0;
+    position: left; 
+    color: #000;
+    outline: none;
+    text-decoration: none;
+}
+
+
+#checkAccept{
+    
+    width: 30px;
+    height: 15px;
+    border-radius: 50px;
+    margin: 20px 0;
+}
+
+.btn-register{
+    background: none;
+    color: rgba(0, 0, 0, 0.918);
+    margin: 50px auto auto auto;
+    padding: 10px;
+    border: 2px solid #662194;
+    border-radius: 50px;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn-register:hover{
+    background: #662194;
+    color: #FFF;
+
+    transition: .5s;    
+}
+/*====================TIPOGRAFIA====================*/
+
 ::placeholder{
-    color: black;
+    color: rgba(0, 0, 0, 0.507);
+}
+
+small{
+    color: #662194;
+    font-size: 15px;
+    text-align: left;
+}
+
+a{
+    color: #662194;
+}
+a:hover{
+    color: #9a38db;
+    transition: .4s;
+}
+
+* {
+    font-family: Impact, Haettenschweiler, 
+    'Arial Narrow Bold', sans-serif;
 }

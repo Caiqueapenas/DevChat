@@ -43,13 +43,8 @@ form>input{
     color:rgba(0, 0, 0, 0.37);
 }
 
-.checkBox{
-    margin: 0 15px 0 20px;
-}
-
-
 .btn-login{
-    margin:auto;
+    margin:60px auto 0 auto;
 }
 
 /*=====================Formatacao do botao login*/
@@ -89,5 +84,5 @@ form>input{
     margin:0 0 0 10px;
 }
 .forgotPass:hover{
-    color:rgb(81, 19, 122);
+    color:rgb(64, 5, 104);
 }

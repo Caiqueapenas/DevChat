@@ -17,7 +17,7 @@ body{
     border:2px solid rgba(255, 255, 255, 0.89);
     margin:20px auto;
     height:auto;
-    width:200px;
+    width:230px;
     padding: 0 0 0 12px;
     border-radius:20px 20px 20px ;
     text-align:center;
@@ -52,12 +52,13 @@ h1>a:hover{
     max-width:1025px;
     height:auto;
     max-height:600px;
-    border-radius:10px;    
+    border-radius:10px;   
+    text-align: center; 
 }
 nav>a{
     border:2px solid rgba(255, 255, 255, 0.89);
     margin:auto 5px;
-    padding:10px 4px;     
+    padding:10px 10px;     
     width:95px;
     height:36px;
     line-height: 50px;
@@ -72,46 +73,17 @@ nav>a:hover{
     text-decoration:none;
     padding:10px 10px;    
     color:rgb(36, 36, 36);
-    border-radius:6px;
     transition:.2s;
 }
 
-/*=======CONTEUDO QUE ABRANGE OS BOTÕES DARK/LIGHT=======<<<*/
+.turnOnOff{
+    text-align: center;
+    margin: 0 25% 30px 25%;
+    width:50%;
+    max-width: 1024px;
+    height: 50px;
+    padding: 10px;
 
-.conteudo{
-    margin:100px auto;
-    width: auto;
-    max-width:525px;
-    height: auto;
-    padding:30px auto;
-}
-
-/*>>>Dark Mode Botão<<<*/
-
-.lightMode{
-    border:2px solid rgba(255, 255, 255, 0.89);
-    margin:auto 0;
-    float: left;
-    padding:0;     
-    width:100%;
-    max-width:150px;
-    height:auto;
-    border-radius:10px;
-    color:rgba(255, 255, 255, 0.89);
-    text-decoration:none;
-    font-weight:bold;
-    text-align:center;
-}
-/*>>>Inserir um icone de lua <<<*/
-.lightMode:hover{
-    background-color: rgba(255, 255, 255, 0.89);
-    border: 2px solid rgba(255, 255, 255, 0.89);
-    color: rgb(36, 36, 36);
-    width:100%;
-    max-width:150px;
-    padding: 0 0 0 10px;
-    transition: .3s;
-    text-decoration:none;
 }
 
 /*>>>Rodape<<<*/

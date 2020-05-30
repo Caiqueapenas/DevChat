@@ -20,57 +20,67 @@
         </h1>
     </header>
     
-    <div class="conteudo">
-        <a href="../../dark/pages/subscribe/subscribe.html" class="darkMode">
-            <img src="../../images/on.svg" alt="">
-            Dark Theme
-        </a>        
-    </div>
-    <br><br>
+    <a href="../../dark/pages/subscribe/subscribe.html">
+        <img class="turnOnOff" src="../../images/turnOff.svg" alt="">
+    </a>
+
     <div class="container"><!--Container-->
 
         <div class="row"><!--Row--> 
       
             <!--Menu-->         
             <nav class="menu">
-                <a href="../../index.html">Home
-                    <img src="../../images/home.png">
-                </a>
-                <a href="../login/login.html">Login
-                    <img src="../../images/login.png">
-                </a>
-                <a href="subscribe.html">Criar conta
-                    <img src="../../images/subscribe.png">
-                </a>
-                <a href="../donate/donate.html">Seja um apoiador
-                    <img src="../../images/donate.png">
-                </a>
-                <a href="../about-us/about-us.html">Sobre nós
-                    <img src="../../images/about.png">
-                </a>
-                <a href="../contact/contact.html">Contatos
-                    <img src="../../images/contact.png">
-                </a>
+                <a href="../../index.html">HOME</a>
+                
+                <a href="../login/login.html">LOGIN</a>
+
+                <a href="subscribe.html">CRIAR&nbsp;CONTA</a>
+
+                <a href="../donate/donate.html">SEJA&nbsp;UM&nbsp;APOIADOR</a>
+
+                <a href="../about-us/about-us.html">SOBRE&nbsp;NÓS</a>
+
+                <a href="../contact/contact.html">CONTATOS</a>
             </nav>
+            <!--Menu /-->
+
+            <form class="form" method="POST"><!--Formulário-->
+                <h2>CRIAR CONTA</h2>
+    
+                <input type="text" placeholder="Seu nome" autofocus>                
+                <input type="text" placeholder="Seu sobrenome">
+                
+                <div>
+                    <input type="email" placeholder="Seu email">
+                </div>
+    
+                <input type="password" placeholder="Sua senha">
+                <input name="confirmPass" type="password" placeholder="Repita sua senha">
+                <select name="" id="">
+                    <option value="">Gênero</option>
+                    <option value="masculino">Masculino</option>
+                    <option value="feminino">Feminino</option>
+                    <option value="outro">Outro</option>
+                </select>
+                <br><br>
+                
+                <input type="checkbox" name="" id="checkAccept">
+                <small for="checkAccept">Declaro ter lido e aceito os
+                    <a href=""><strong>termos de uso</strong></a>.</small>
+                    <br>
+                <input type="checkbox" name="" id="checkAccept">
+                <small for="checkAccept">Declaro aceitar as
+                    <a href=""><strong>políticas do site</strong></a>.</small>
+    
+                <br>
+                <button value="" class="btn-register">REGISTRAR</button>
+                <br><br>
+                <small>Já tem uma conta? Faça <a href="../login/login.html">
+                    <strong>login</strong></a>
+            </form><!--Formulário /-->
 
 </div><!--Row /-->
 </div><!--Container /-->
-
-    <div class="container">
-        <h2>Inscreva-se</h2><hr>            
-
-        <!--Formulario-->
-            <div class="entrada col-md-6 col-sm-9">
-                <form action="">
-                    <input id="nome" type="text" placeholder="Digite seu nome">
-                    <input id="sobrenome" type="text" placeholder="Digite seu sobrenome">
-                    <div class="col-md-12">
-                    <input type="email" placeholder="Digite seu email">
-                    </div>
-                </form>
-            </div>
-            <!--Formulario /-->
-            </div>
 
     <footer>
         <p>&copy;devChat</p>

@@ -32,10 +32,11 @@ form>input{
     background: none;
     float: left;
     border:none;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.212);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.212);
     text-decoration: none;
     width: 90%;
     margin: 40px auto 20px auto;
+    color:rgba(255, 255, 255, 0.932);
     outline: none;
 }
 
@@ -43,13 +44,8 @@ form>input{
     color:rgba(253, 253, 253, 0.63);
 }
 
-.checkBox{
-    margin: 0 15px 0 20px;
-}
-
-
 .btn-login{
-    margin:auto;
+    margin:60px auto 0 auto;
 }
 
 /*=====================Formatacao do botao login*/
@@ -68,20 +64,21 @@ form>input{
 }
 
 /*=====================Formatacao do botao Register*/
-.buttonRegister{
+
+a.button{
     text-decoration: none;
     border: 2px solid #FFF;
     background: #FFF;
-    color: #000;
+    color: #242424;
     border-radius: 20px;
     padding:10px 20px;
 }
-.buttonRegister:hover{    
+
+a.button:hover{
     background: none;
     color: #FFF;
-    transition:.3s;
+    transition: .2s;
 }
-
 /*=============Esqueceu a senha?=============*/
 
 .forgotPass{
@@ -91,3 +88,5 @@ form>input{
 .forgotPass:hover{
     color:rgb(206, 206, 206);
 }
+
+/*====================TIPOGRAFIA====================*/
