@@ -20,7 +20,7 @@ body{
     padding: 0 0 0 12px;
     border-radius:20px 20px 20px ;
     text-align:center;
-}
+} 
 .cabecalho:hover{
     background-color: rgb(102, 33, 148);
     transition: .5s;
