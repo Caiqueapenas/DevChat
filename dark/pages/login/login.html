@@ -43,28 +43,22 @@
             </nav>
             <!--Menu /-->
 
-<!--Formulario-->
-<div class="entrada col-md-7 col-sm-9">
-    <div class="entradaint">
+<!--Formulario--><form class="form" method="post">
+            <h2>LOGIN</h2><hr>
 
-        <h2>Faça Login</h2>
-
-            <form method="POST">
-                <input type="email" name="email" id="email" placeholder="Digite o seu Email" autofocus />
-                <input type="password" name="password" id="password" placeholder="Digite a sua senha" />
-
-                <div><!--Essa div para estilizar os inputs abaixo-->
-                    <label for="remember">Lembrar</label>
-                    <input type="checkbox" id="remember" name="remember" class="checkBox"/>  
-                </div>
-
-                <button value="" class="btn-login buttonLogin">Entrar</button>
-                <a class="button" href="../subscribe/subscribe.html">Registar</a>
-                <a class="forgotPass" href="">Esqueceu a senha?</a>
+            <input type="email" name="email" id="email"
+            autofocus placeholder="Digite seu email">
+            <input type="password" name="password" id="password"
+            placeholder="Digite sua senha">
+            <input type="checkbox" name="checkbox" id="checkAccept">
+            <label for="checkAccept">Lembrar-me</label><br>
+            <button value="" class="btn-login">LOGIN</button>
+            <br><br>    
+            <small>Ainda não tem uma conta? Crie uma
+                <a href="../subscribe/subscribe.html"><strong>clicando aqui</strong></a>
+            </small>
 
         </form>
-    </div>
-</div>
 <!--Formulario /-->
     
     

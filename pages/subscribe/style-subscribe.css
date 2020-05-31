@@ -19,7 +19,7 @@ input{
     border-bottom: 1px solid rgba(0, 0, 0, 0.548);
     width: 45%;
     margin: 30px 3% 0 0;
-    color: rgba(255, 255, 255, 0.822);
+    color: rgba(0, 0, 0, 0.952);
     outline: none;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -30,20 +30,24 @@ div>input{
 
 select{
     background: none;
-    height: 25px;
+    width: auto;
+    height: auto;
     border: 2px solid #662194;
-    border-radius: 20px;
-    padding: 2px;
+    border-radius: 10px;
+    font-size: 16px;
     margin: 2.7em 0 0 0;
+    padding: 5px;
     position: left; 
-    color: #000;
-    outline: none;
+    color: rgba(0, 0, 0, 0.911);
     text-decoration: none;
+    text-align: center;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    outline: none;
 }
 
-
-#checkAccept{
-    
+.checkAccept{    
     width: 30px;
     height: 15px;
     border-radius: 50px;
@@ -56,8 +60,9 @@ select{
     margin: 50px auto auto auto;
     padding: 10px;
     border: 2px solid #662194;
-    border-radius: 50px;
+    border-radius: 20px;
     outline: none;
+    font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
 }
 .btn-register:hover{
@@ -72,10 +77,14 @@ select{
     color: rgba(0, 0, 0, 0.507);
 }
 
-small{
+label{
     color: #662194;
     font-size: 15px;
     text-align: left;
+}
+
+small{
+    font-size: 14px;
 }
 
 a{

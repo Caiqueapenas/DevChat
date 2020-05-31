@@ -1,90 +1,78 @@
-
-/*=============Formulário=============*/
-
-div>h2{
-    color:#000;
-    text-align: center;
-    margin: 30px auto 0px auto;
-}
-.entrada {
-    margin:100px auto auto auto;
-    width:auto;
-    padding: 0;
-    max-width: 700px;
-    height:auto;
-    border:2px solid rgba(102, 33, 148, 0.822);
+/*====================FORMULÁRIO DE REGISTRO====================*/
+.form{
+    border: 2px solid #662194;
     border-radius: 20px;
-}
-.entradaint {
-    margin:auto;
-    width:auto;
-    height:auto;
-    max-width: 500px;
-    border:none;    
-}
-.entradaint form { 
-    margin: auto;
-    padding: 60px 0 30px 10px;
-    color:#000;
+    width: 100%;
+    max-width: 700px;
+    margin: 100px auto auto auto;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-form>input{
-    background: none;
-    float: left;
-    border:none;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.212);
-    text-decoration: none;
-    width: 90%;
-    margin: 40px auto 20px auto;
-    outline: none;
+h2{
+    margin: auto auto 50px auto;
 }
+
+input{
+    background: none;
+    border:none ;
+    border-bottom: 1px solid rgba(68, 68, 68, 0.548);
+    width: 45%;
+    margin: 30px 3% 0 0;
+    color: rgba(255, 255, 255, 0.822);
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div>input{
+    width: 94%;
+}
+
+#checkAccept{
+    width: 30px;
+    height: 15px;
+    border-radius: 50px;
+    margin: 20px 0;
+}
+
+.btn-login {
+    background: none;
+    color: rgba(0, 0, 0, 0.918);
+    margin: 50px auto auto auto;
+    padding: 10px;
+    border: 2px solid #662194;
+    border-radius: 20px;
+    outline: none;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn-login:hover{
+    background: #662194;
+    color: #FFF;
+
+    transition: .5s;    
+}
+/*====================TIPOGRAFIA====================*/
 
 ::placeholder{
-    color:rgba(0, 0, 0, 0.37);
+    color: rgba(0, 0, 0, 0.507);
 }
 
-.btn-login{
-    margin:60px auto 0 auto;
+small{
+    color: #662194;
+    font-size: 14px;
+    text-align: left;
 }
 
-/*=====================Formatacao do botao login*/
-.buttonLogin{
-    background-color: transparent;
-    border: 2px solid rgb(102, 33, 148);
-    text-decoration: none;
-    color: #000;
-    border-radius: 20px;
-    padding:10px 20px;
+a{
+    color: #662194;
 }
-.buttonLogin:hover{    
-    background-color: rgb(102, 33, 148);
-    color: rgb(255, 255, 255);
-    transition:.3s;
+a:hover{
+    color: #9a38db;
+    transition: .4s;
 }
 
-/*=====================Formatacao do botao Register*/
-
-a.button{
-    text-decoration: none;
-    border: 2px solid rgba(102, 33, 148, 0.822);
-    background: rgb(102, 33, 148);
-    color: #FFF;
-    border-radius: 20px;
-    padding:10px 20px;
-}
-
-a.button:hover{
-    background: none;
-    color: #000;
-    transition: .2s;
-}
-
-/*=============Esqueceu a senha?=============*/
-
-.forgotPass{
-    color:rgb(102, 33, 148);
-    margin:0 0 0 10px;
-}
-.forgotPass:hover{
-    color:rgb(64, 5, 104);
+* {
+    font-family: Impact, Haettenschweiler, 
+    'Arial Narrow Bold', sans-serif;
 }
