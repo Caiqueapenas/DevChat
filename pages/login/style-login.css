@@ -63,18 +63,20 @@ form>input{
 }
 
 /*=====================Formatacao do botao Register*/
-.buttonRegister{
+
+a.button{
     text-decoration: none;
-    border: 2px solid rgb(102, 33, 148);
+    border: 2px solid rgba(102, 33, 148, 0.822);
     background: rgb(102, 33, 148);
-    color: rgb(255, 255, 255);
+    color: #FFF;
     border-radius: 20px;
     padding:10px 20px;
 }
-.buttonRegister:hover{    
+
+a.button:hover{
     background: none;
     color: #000;
-    transition:.3s;
+    transition: .2s;
 }
 
 /*=============Esqueceu a senha?=============*/
